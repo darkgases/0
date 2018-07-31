@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes play {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .a1{
+            height: 400px;
+            width: 400px;
+            border: 1px grey solid}
+        .a2{
+            height: 400px;
+            width: 400px;
+            background-image: url("../../img/auto/rolls.jpg");
+            border-radius: 50%;
+
+        }
+        .a1:hover .a2{
+            animation: play 4s linear infinite ;
+
+        }
+    </style>
+</head>
+<body>
+<div class="a1">
+    <div class="a2"></div>
+</div>
+</body>
+</html>

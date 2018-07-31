@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes move {
+            0%{
+
+            }
+            25%{
+                background-color: deepskyblue;
+                transform: translate(50px,0px);
+            }
+            50%{
+                background-color: darkorange;
+                transform: translate(50px,50px);
+                border-radius:50%;
+            }
+            75%{
+                background-color: green;
+                transform: translate(0px,50px);
+            }
+            100%{
+                background-color: red;
+                transform: translate(0px,0px);
+            }
+
+        }
+        .a1{
+            height: 400px;
+            width: 400px;
+            border: black 1px solid;
+            transition: all 1s linear;
+        }
+        .a1:hover{
+            animation: move 4s linear reverse;
+            /*reverse 倒序   linear线性*/
+        }
+    </style>
+</head>
+<body>
+<div class="a1"></div>
+</body>
+</html>

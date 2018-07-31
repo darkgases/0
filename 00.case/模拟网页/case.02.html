@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 微软雅黑;
+        }
+        /*：：-webkit-input-placeholder{*/
+        /*text-indent: 20px;*/
+        /*font-size: 15px;*/
+        /*}*/
+        @keyframes play {
+            50%{
+                transform: scale(1.2);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        #test {
+
+            border-radius: 10px;
+            text-indent: 5px;
+            margin-right: 10px;
+
+        }
+
+        .boundary{
+            border: red 1px solid;
+        }
+        .total{
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            overflow: auto;
+
+        }
+        .search{
+            text-align: center;
+            background-image: linear-gradient(to bottom ,ghostwhite, dimgrey);
+            height: 60px;
+            line-height: 60px;
+        }
+        .search img{
+            position: absolute;
+            left: 150px;
+        }
+        .search input{
+             height: 30px;
+             line-height: 30px;
+             font-size: 18px;
+         }
+        .menu{
+            width: 15%;
+            height: 100%;
+            font-size: 30px;
+            margin-left: 80px;
+            display: inline-block;
+        }
+        .menu ul li{
+            margin:10px 0px 0px 0px;
+            text-align: center;
+            border-radius: 10px;
+            text-indent: 10px;
+            list-style: none;
+        }
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color: black;
+        }
+        .menu ul li:nth-child(2n){
+            background-color: grey;
+        }
+        .menu ul li:nth-child(2n-1){
+            background-color: lightgray;
+        }
+
+
+        .menu ul li:hover {
+            color: tomato;
+            background-color: wheat;
+            box-shadow: 0px 0px 10px lightslategrey;
+        }
+        .commodity{
+            height: 660px;
+            width: 75%;
+            display: inline-block;
+            float: right;
+
+
+        }
+        .item{
+            height: 310px;
+            margin: 10px 10px 10px 10px;
+            width: 25%;
+            display: inline-block;
+            box-shadow: 0px 0px 20px grey;
+            border-radius: 10px 10px 10px 10px;
+            overflow: hidden;
+            background-color: aliceblue;
+            position: relative;
+        }
+        .item:hover .effect {
+            top :270px;
+        }
+        .sale{
+            height: 40px;
+            line-height: 30px;
+            width: 100%;
+            background-color: orange;
+            color: red;
+            position: absolute;
+            font-size: 16px;
+            text-align: center;
+
+            transform: rotate(40deg);
+            right: -110px;
+            top: 10px;
+            box-shadow:  0px 0px 10px darkorange;
+
+
+        }
+        .img{
+            height: 50%;
+            background-size: cover;
+            background-position: center;
+        }
+        .item:hover .img{
+            animation: play 3s linear infinite;
+        }
+        .name{
+            font-size: 20px;
+            height: 30px;
+            color:grey;
+            margin: 5px;
+            font-weight: 600;
+
+            text-align: center;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .summary{
+            font-size: 15px;
+            overflow: hidden;
+            color: lightslategrey;
+            margin: 5px;
+            font-weight: 500;
+            height: 100px;
+            display: inline-block;
+
+        }
+        .price{
+            font-size: 15px;
+            text-align: center;
+            color: orangered;
+            background-color: lightgray;
+            margin: 5px 5px 5px 12px;
+            font-weight: 500;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            width: 40%;
+            box-shadow: 0px 0px 10px lightslategrey;
+            opacity: .7;
+        }
+        .detail{
+            font-size: 15px;
+            color: orangered;
+            background-color: lightgray;
+            margin: 5px 5px 5px 12px;
+            font-weight: 500;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            text-align: center;
+            width: 40%;
+            box-shadow: 0px 0px 10px lightslategrey;
+            opacity: .8;
+            right: 5px;
+        }
+        .effect{
+            width: 100%;
+            height: 30px;
+            top: 310px;
+            position: absolute;
+            text-align: center;
+            transition: all .2s ease-in-out;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="total">
+    <div class="search"><form action="http://www.baidu.com/s">
+        <img src="../../img/SVG/car1.svg" align="left" height="60px" > <input id="test" type="text" name="wd" placeholder="请输入车型" ><input type="submit" value="搜索" style="width: 80px" >
+    </form>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="https://www.lamborghini.com/cn-en/" target="_blank">兰博基尼</a></li>
+            <li><a  href="https://www.porsche.com/china/"target="_blank"> 保时捷</a></li>
+            <li><a href="http://www.cadillac.com.cn/"target="_blank">凯迪拉克</a></li>
+            <li><a href="https://auto.ferrari.com/zh_CN/"target="_blank">法拉利</a></li>
+            <li><a href="https://www.landrover.com.cn/index.html"target="_blank">路虎</a></li>
+            <li><a href="http://www.rolls-roycemotorcars.com.cn/zh-CN/home.html"target="_blank">劳斯莱斯</a></li>
+            <li><a href="https://www.bentleymotors.com/cn/zh.html"target="_blank">宾利</a></li>
+            <li><a href="https://www.lincoln.com.cn/"target="_blank">林肯</a></li>
+            <li><a href="http://www.astonmartin.com/"target="_blank">阿斯顿马丁</a></li>
+            <li><a href="https://www.mercedes-benz.com.cn/"target="_blank">奔驰</a></li>
+            <li><a href="https://www.jaguar.com.cn/index.html"target="_blank">捷豹</a></li>
+            <li><a href="https://www.audi.cn/cn/web/zh.html"target="_blank">奥迪</a></li>
+            <li><a href="http://www.infiniti.com.cn/brand.html"target="_blank">英菲迪尼</a></li>
+            <li><a href="http://www.subaru-china.cn/"target="_blank">斯巴鲁</a></li>
+            <li><a href="http://www.bydauto.com.cn/"target="_blank">比亚迪</a></li>
+        </ul>
+    </div>
+    <div class="commodity">
+        <br clear="both">
+        <div class="item" >
+            <div class="sale">满减2元</div>
+            <div class="img" style="background-image: url(../../img/auto/porsher-panamera-01.jpg)"></div>
+            <div class="name">保时捷boundary</div>
+            <div class="summary">采用了四门设计，前脸两侧各有一个大型进气口，水平条式雾灯横穿其中，造型独特。侧身线面处理得简洁柔和，既优雅又动感，巨大的五辐式轮彀搭配了黑色的刹车卡钳，暗示出不俗的运动潜能。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="img" style="background-image: url(../../img/auto/tesla-roadster-2018-01.jpg)"></div>
+            <div class="name">特斯拉roadster</div>
+            <div class="summary">Tesla Roadster是全球首款量产版电动敞篷跑车，由坐落于美国加利福尼亚州硅谷的Tesla Motors生产。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="img" style="background-image: url(../../img/auto/rolls.jpg)"></div>
+            <div class="name">劳斯莱斯·幻影</div>
+            <div class="summary">劳斯莱斯幻影庞大的车身还不到2.5吨重，再加上6.7升V12发动机与六速自动变速箱的的通力合作，幻影0-100Km/h的加速不到6秒，出于对安全的考虑最高时速被限制在240Km/h。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="img" style="background-image: url(../../img/auto/WM.jpg)"></div>
+            <div class="name">威蒙赛麟WM Saleen S7</div>
+            <div class="summary">赛麟S7是史蒂夫·赛麟17年赛车经验的结晶，其高效能生产工艺和精益求精的造车理念也受到全球各大主流汽车制造商的追捧与推崇。直至今天，赛麟S7仍然是众多世界著名跑车制造商设计新车时的标杆。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="img" style="background-image: url(../../img/auto/BUGATTI.jpg)"></div>
+            <div class="name">布加迪威航Super Sport</div>
+            <div class="summary">Veyron Super Sport使用与威航相同的8.0升16缸4涡轮增压发动机，最大功率达到了1200马力，最大扭矩1500牛·米。布加迪威航Super Sport的百公里加速时间为2.5秒，极速可达431公里/小时。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="img" style="background-image: url(../../img/auto/AstonMartin.jpg)"></div>
+            <div class="name">阿斯顿马丁One-77</div>
+            <div class="summary">全球限量77台，国内售价4700万人民币，中国配额仅5辆，阿斯顿马丁One-77[1]在2011年4月19日上海车展正式亮相，这是目前全球最贵的跑车，它的价格已经超过了标准版的布加迪威航。</div>
+            <div class="effect">
+                <div class="price">$600000</div>
+                <div class="detail">查看详情</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
