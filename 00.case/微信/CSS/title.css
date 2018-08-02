@@ -1,0 +1,38 @@
+#title{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: lightyellow;
+    align-items: center;
+    justify-content: space-between;
+}
+#wei{
+    font-size: 18px;
+    display: flex;
+   justify-content:flex-start;
+    flex: 10;
+    margin-left: 5px;
+}
+#search{
+    background-position: center;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    background-image: url("../../../img/SVG/search.svg");
+    display:flex;
+    justify-content:flex-end;
+    flex: 1;
+    margin-right: 5px;
+}
+#add{
+    background-position: center;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    background-image: url("../../../img/SVG/plus-circle.svg");
+    display:flex;
+    justify-content:flex-end;
+    flex: 1;
+    margin-right: 5px;
+
+}
