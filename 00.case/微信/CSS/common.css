@@ -11,3 +11,6 @@
     justify-content: center;
     display: flex;
 }
+::-webkit-scrollbar {
+    display: none;
+}

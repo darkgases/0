@@ -2,7 +2,7 @@
     height: 30px;
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: #424242;
     color: white;
     justify-content: space-between;
     font-weight: 100;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 #signal-left div{
-    margin-left: 2px;
+    margin-left: 6px;
 }
 #signal-middle{
     height: 30px;
@@ -80,11 +80,12 @@ height: 18px;
 
 }
 #battery-body{
-    height: 16px;
-    width: 26px;
+    height: 14px;
+    width: 24px;
     border-radius: 1px;
     border: 1px white solid;
     display: flex;
+    align-items: center;
 
 }
 #battery-head{
@@ -93,15 +94,11 @@ height: 18px;
     background-color: white;
     border-radius: 0px 1px 1px 0px;
 
-
 }
 #battery-core{
-    height: 14px;
-    width: 30px;
-    background-color: greenyellow;
-    margin: 1px;
-    align-items: center;
-    justify-content: center;
+    height: 11px;
+    width: 20px;
+    margin:1px;
 
 }
 @keyframes charge {
@@ -114,7 +111,7 @@ height: 18px;
         background-color: yellow;
     }
     50%{
-        width: 30px;
+        width: 22px;
         background-color: limegreen;
     }
     75%{

@@ -1,6 +1,90 @@
 #dynamic{
     width: 100%;
-    background-color:white;
+    background-color:#F5F5F5;
     flex: 1;
+    overflow: scroll;
+}
+.dynamic-line{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #E0E0E0 solid;
 
+}
+.dynamic-line-head{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    position: relative;
+
+}
+.dynamic-new-message{
+    height: 20px;
+    width: 20px;
+    border: 1px crimson solid;
+    background-color:#FF3D00;
+    border-radius: 50%;
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    color: white;
+}
+.dynamic-line-news{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+    flex-flow: column;
+    display: flex;
+    justify-content: space-around;
+}
+.dynamic-line-news-top{
+    display: flex;
+    flex-flow: row;
+}
+
+.news-top-left{
+    height: 24px;
+    flex: 1;
+    color: #424242;
+    font-weight: 600;
+}
+
+.news-top-right{
+    height:24px ;
+    width: 24px;
+    font-size: 8px;
+    color: darkgrey;
+
+}
+.dynamic-line-news-button{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.news-button-left{
+    font-size: 14px;
+    color: #616161;
+    max-width: 250px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+
+}
+.news-button-right-close{
+    display: none;
+}
+.news-button-right-open{
+    height: 14px;
+    width: 14px;
+    margin: 1px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
 }
