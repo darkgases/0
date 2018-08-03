@@ -6,12 +6,29 @@
     justify-content: space-between;
 
 }
-.menu-block{
+#menu-block1{
     height: 100%;
     width: 90px;
     margin:1px;
     position: relative;
-
+}
+#menu-block2{
+    height: 100%;
+    width: 90px;
+    margin:1px;
+    position: relative;
+}
+#menu-block3{
+    height: 100%;
+    width: 90px;
+    margin:1px;
+    position: relative;
+}
+#menu-block4{
+    height: 100%;
+    width: 90px;
+    margin:1px;
+    position: relative;
 }
 .menu-new-message{
     height: 20px;

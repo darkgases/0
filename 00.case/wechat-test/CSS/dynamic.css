@@ -99,57 +99,20 @@
     color: #757575;
 
 }
-#data{
-    height: 100px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px #E0E0E0 solid;
-    background-size: cover;
-    background-position: center;
-}
-#data-left{
-    height: 80px;
-    width: 80px;
-    margin-left: 20px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../img/头像/猫.jpeg);
-}
 
-#data-middle{
-    height: 80px;
-    width: 80px;
+
+
+#D1{
+     width: 100%;
+     background-color:#F5F5F5;
+     flex: 1;
+     overflow: scroll;
+
+ }
+#D2{
+    width: 100%;
+    background-color:#F5F5F5;
     flex: 1;
-    margin: 20px;
-    display: flex;
-    flex-flow: column;
-}
-#data-middle-top{
-    height: 30px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 30px;
-
-
-}
-#data-middle-button{
-    height: 30px;
-    width: 100%;
-    font-size: 16px;
-    line-height: 30px;
-    color: darkgrey;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space:nowrap;
-
-
-}
-#data-right{
-    height: 30px;
-    width: 30px;
-    margin-right: 40px;
-    background-image: url(../img/svg/二维码.svg);
+    overflow: scroll;
+    display: none;
 }
