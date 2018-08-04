@@ -286,8 +286,8 @@
 }
 .community-content-area-top-msg-comment img{
 
-    max-height: 95%;
-    width: 95%;
+    max-height: 100%;
+    width: 100%;
     margin: 0 auto;
 
 
@@ -406,7 +406,7 @@
 .more-menu-box{
     height: 23px;
     width: 23px;
-    margin: 8px 1px 0px 0px;
+    margin: 8px 5px 0px 0px;
     background-position: center;
     background-size: cover;
     line-height: 21px;
