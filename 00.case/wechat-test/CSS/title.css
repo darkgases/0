@@ -14,7 +14,26 @@
     flex: 1;
     margin-left: 5px;
 }
+#title-wei1{
+    font-size: 18px;
+    display: flex;
+    justify-content:flex-start;
+    color: white;
+    flex: 1;
+    margin-left: 5px;
+}
 #title-search{
+     background-position: center;
+     background-size: cover;
+     height: 25px;
+     width: 25px;
+     background-image: url("../img/svg/search.svg");
+     display:flex;
+     justify-content:flex-end;
+     margin-right: 20px;
+
+ }
+#title-search1{
     background-position: center;
     background-size: cover;
     height: 25px;
