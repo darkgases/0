@@ -1,0 +1,516 @@
+
+#dynamic{
+    width: 100%;
+    background-color:#F5F5F5;
+    flex: 1;
+    overflow: scroll;
+    /*display: flex;*/
+
+}
+
+#dynamic-0{
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5F5;
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    position: relative;
+    overflow: scroll;
+}
+#dynamic-1{
+
+    flex: 1;
+    flex-flow: column;
+    position: relative;
+    overflow: scroll;
+}
+#dynamic-2{
+    width: 3%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    flex-flow: column;
+    position:absolute;
+
+}
+.dynamic-2-1{
+    width: 100%;
+    height: 3.3%;
+    margin-bottom:1px;
+    line-height: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 16px;
+}
+.dynamic-line{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #E0E0E0 solid;
+    background-size: cover;
+    background-position: center;
+
+}
+.dynamic-line-head{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    position: relative;
+
+}
+.dynamic-new-message{
+    height: 20px;
+    width: 20px;
+    border: 1px crimson solid;
+    background-color:#FF3D00;
+    border-radius: 50%;
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    color: white;
+}
+.dynamic-line-news{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+    flex-flow: column;
+    display: flex;
+    justify-content: space-around;
+}
+.dynamic-line-news-top{
+    display: flex;
+    flex-flow: row;
+}
+
+.news-top-left{
+    height: 24px;
+    flex: 1;
+    color: #424242;
+    font-weight: 600;
+}
+
+.news-top-right{
+    height:24px ;
+    width: 24px;
+    font-size: 8px;
+    color: darkgrey;
+
+}
+.dynamic-line-news-button{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.news-button-left{
+    font-size: 14px;
+    color: #616161;
+    max-width: 250px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+
+}
+.news-button-right-close{
+    display: none;
+}
+.news-button-right-open{
+    height: 14px;
+    width: 14px;
+    margin: 1px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.initial{
+    height: 20px;
+    width: 100%;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    text-indent: 10px;
+    color: #757575;
+
+}
+#data{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #E0E0E0 solid;
+    background-size: cover;
+    background-position: center;
+}
+#data-left{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/头像/猫.jpeg);
+}
+
+#data-middle{
+    height: 80px;
+    width: 80px;
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+}
+#data-middle-top{
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+#data-middle-button{
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: darkgrey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+
+
+}
+#data-right{
+    height: 30px;
+    width: 30px;
+    margin-right: 40px;
+    background-image: url(../img/svg/二维码.svg);
+}
+#community-head{
+    height: 220px;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    position: relative;
+}
+#community-head-big{
+    height: 220px;
+    width: 100%;
+
+    background-position: center;
+    background-size:cover;
+}
+
+
+
+#community-head-small{
+    height: 80px;
+    width: 80px;
+    background: #E64A19;
+    z-index: 2;
+    position: absolute;
+    border: 2px white solid;
+    right: 15px;
+    bottom: -30px;
+    background-size: cover;
+    background-position: center;
+}
+#ID{
+    height: 80px;
+    width: 80px;
+    position:absolute;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    right: 100px;
+    bottom: -20px;
+}
+.community-content{
+    height:100%;
+    width: 100%;
+    background-color:white;
+    display: inline-block;
+    position: relative;
+
+}
+.community-content-area{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+
+}
+.community-content-area-top{
+
+    width: 100%;
+    display: flex;
+}
+
+.community-content-area-top-head{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.community-content-area-top-msg{
+
+    width: 94%;
+    margin: 5px;
+    display:inline-block;
+    flex-flow: column;
+
+}
+.community-content-area-top-msg-name{
+    height: 16px;
+    max-width: 100%;
+    margin: 1px;
+    color: dodgerblue;
+    font-size: 12px;
+}
+.community-content-area-top-msg-comment{
+
+    max-width: 100%;
+    margin: 1px;
+    color: black;
+    font-size: 15px;
+    word-break: break-all;
+
+}
+.community-content-area-top-msg-comment img{
+
+    max-height: 95%;
+    width: 95%;
+    margin: 0 auto;
+
+
+}
+.community-content-area-button{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.community-content-area-button-left{
+    height: 30px;
+    width: 60px;
+    margin-left:53px ;
+    font-size: 14px;
+    color: #757575;
+}
+
+
+
+
+
+
+/*日后再改*/
+
+
+
+
+
+
+
+#community-content-area-button-right1{
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/更多.svg);
+}
+#more-menu1{
+    height: 36px;
+    width: 120px;
+    position: absolute;
+    left: -130px;
+    margin: 0 auto;
+    background-color:#424242;
+    display: none;
+}
+
+#community-content-area-button-right2{
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/更多.svg);
+}
+#more-menu2{
+    height: 36px;
+    width: 120px;
+    position: absolute;
+    left: -130px;
+    margin: 0 auto;
+    background-color:#424242;
+    display: none;
+}
+
+
+#community-content-area-button-right3{
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/更多.svg);
+}
+#more-menu3{
+    height: 36px;
+    width: 120px;
+    position: absolute;
+    left: -130px;
+    margin: 0 auto;
+    background-color:#424242;
+    display: none;
+}
+
+
+
+
+/*日后再改*/
+.more-menu-zan{
+ height: 32px;
+    width: 53px;
+    display:flex;
+    margin-left: 6px;
+   float: left;
+    position: absolute;
+
+ }
+
+
+.more-menu-ping{
+    height: 32px;
+    width: 53px;
+    display: flex;
+    justify-content: space-between;
+   margin-left: 6px;
+    float: left;
+    position: absolute;
+    left: 60px;
+}
+
+.more-menu-box{
+    height: 23px;
+    width: 23px;
+    margin: 8px 5px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    line-height: 21px;
+    font-size: 10px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*聊天新增*/
+.frame{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/聊天背景/聊天背景.png");
+    overflow: scroll;
+    flex: 1;
+    /*z-index: 7;*/
+}
+.line{
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 10px;
+
+    display: inline-block;
+
+}
+.head{
+    height: 60px;
+    width: 60px;
+    padding: 1px;
+
+    float: left;
+    display: inline-block ;
+    background-size: cover;
+    background-position: center;
+    background-color: deepskyblue;
+    border-radius: 50%;
+
+}
+.dialog{
+    padding: 1px;
+    height: 98%;
+
+    float: left;
+    margin-left: 5px;
+    background-color: white;
+    max-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+
+}
+.MyHead{
+    padding: 1px;
+    height: 60px;
+    width: 60px;
+    display: inline-block ;
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+    border-radius: 50%;
+    float: right;
+}
+.MyDialog{
+    padding: 1px;
+    height: 98%;
+    margin-right: 5px;
+    float: right;
+    background-color: lightgreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    border: 1px black solid;
+
+}
+.entry{
+    height: 50px;
+    width: 100%;
+    border: 1px gray solid;
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+.border{
+    border: 1px red solid;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+::-webkit-scrollbar {
+    display: none;
+}

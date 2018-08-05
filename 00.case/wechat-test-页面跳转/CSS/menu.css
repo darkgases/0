@@ -1,0 +1,29 @@
+#menu{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color:#EEEEEE;
+    justify-content: space-between;
+
+}
+.menu-block{
+    height: 100%;
+    width: 90px;
+    margin:1px;
+    position: relative;
+
+}
+.menu-new-message{
+    height: 20px;
+    width: 20px;
+    border: 1px crimson solid;
+    background-color:#FF3D00;
+    border-radius: 50%;
+    position: absolute;
+    right:25%;
+    top: 17%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
