@@ -503,12 +503,35 @@
     border: 1px black solid;
 
 }
-.entry{
-    height: 50px;
+#menu{
+    height: 60px;
     width: 100%;
-    border: 1px gray solid;
-}
+    display: flex;
+    background-color:#EEEEEE;
+    justify-content: space-between;
 
+}
+#entry1{
+    height: 45px;
+    line-height: 40px;
+    flex: 1;
+    margin-left: 20px;
+
+ }
+#entry1 input{
+    width: 95%;
+
+}
+#entry2{
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    margin-right: 5px;
+}
+#entry2 input{
+    width: 70%;
+
+}
 
 
 
