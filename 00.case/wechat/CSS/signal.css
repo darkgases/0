@@ -1,0 +1,129 @@
+#signal{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #424242;
+    color: white;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 14px;
+}
+#signal-left{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#signal-left div{
+    margin-left: 6px;
+}
+#signal-middle{
+    height: 30px;
+    width: 60px;
+}
+
+#signal-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#signal-right div{
+    margin:1px;
+}
+
+/*信号开始了*/
+#signal-left-1{
+height: 18px;
+    width: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+#signal-left-1 div{
+    width: 4px;
+    margin-left: 2px;
+    border-radius:1px ;
+
+}
+#signal-left-1 div:nth-child(1){
+     height: 5px;
+ }
+#signal-left-1 div:nth-child(2){
+    height: 9px;
+}
+#signal-left-1 div:nth-child(3){
+    height: 13px;
+}
+#signal-left-1 div:nth-child(4){
+    height: 17px;
+}
+.signal-ok{
+    background-color: white;
+}
+.signal-no{
+    background-color: gray
+}
+
+
+/*信号结束了*/
+
+/*电池开始了*/
+#battery{
+    width: 36px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-right: 2px;
+
+}
+#battery-body{
+    height: 14px;
+    width: 24px;
+    border-radius: 1px;
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+
+}
+#battery-head{
+    height: 6px;
+    width: 2px;
+    background-color: white;
+    border-radius: 0px 1px 1px 0px;
+
+}
+#battery-core{
+    height: 11px;
+    width: 20px;
+    margin:1px;
+
+}
+@keyframes charge {
+    0%{
+        width: 2px;
+        background-color: crimson;
+    }
+    25%{
+        width: 12px;
+        background-color: yellow;
+    }
+    50%{
+        width: 22px;
+        background-color: limegreen;
+    }
+    75%{
+        width: 12px;
+        background-color: yellow;
+    }
+    100%{
+        width: 2px;
+        background-color: crimson;
+    }
+}
+.charging{
+    animation:charge 8s linear infinite;
+}
+/*电池结束了*/

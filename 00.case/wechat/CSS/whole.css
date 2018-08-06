@@ -1,0 +1,9 @@
+#whole{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
